@@ -1,0 +1,95 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.add-item-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.user-input {
+    width: 500px;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #F9F7E8;
+    border-bottom: solid black 1px;
+}
+
+.add-todo .add {
+    font-size: 25px; 
+    padding: 3px;
+    cursor: pointer;
+    color: #25658C;
+}
+
+.add-todo .add:hover {
+    color: rgb(28, 154, 163);
+
+}
+
+.list-container {
+    background-color: #F9F7E8;
+    width: 550px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 25px;
+}
+
+.todo-list .todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    list-style: none;
+    border-bottom: black solid 1px;
+    cursor: pointer;
+}
+
+.add , .trash  {
+    border: none;
+    font-size: 22px;
+    margin: 5px;
+    background-color: #F9F7E8;
+    cursor: pointer;
+}
+
+/* .todo-list .fa-check:hover {
+    color: #25658C;
+} */
+
+.todo-list .trash:hover{
+    color: rgba(153, 8, 8);
+}
+
+/* .completed {
+    text-decoration: line-through;
+} */
+
+.clearLS {
+    border: none;
+    background-color: #89b8d6;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.clearLS:active {
+    background-color: rgb(230, 232, 235);
+}
